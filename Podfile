@@ -1,9 +1,8 @@
-platform :ios, '10.0'
+platform :ios, '12.0'
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-
-abstract_target 'Abstract' do
+target 'FSTeam' do
     pod 'FSHelpers+Swift', :git => 'https://github.com/fs/FSHelper.git'
 
     # Analytics
@@ -12,21 +11,8 @@ abstract_target 'Abstract' do
     
     # Libraries
     pod 'Alamofire', '~> 4.5'
-    pod 'MagicalRecord'
-    
-    target 'FSTeam' do
-    end
-    
-    target 'FSTeamTests' do
-    end
-    
+    pod 'Kingfisher'
 end
 
-# Helpers
-
-#pod 'SDWebImage'
-#pod 'NSDate-Extensions'
-#pod 'Reachability'
-#pod 'SVProgressHUD'
-#pod 'SSKeychain'
-#pod 'MKStoreKit'
+target 'FSTeamTests' do
+end

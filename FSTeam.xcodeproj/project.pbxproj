@@ -20,6 +20,8 @@
 		21DB301F19DD2289003A418D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DB301E19DD2289003A418D /* Images.xcassets */; };
 		21DB304919DD2D6D003A418D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB304819DD2D6D003A418D /* Constants.swift */; };
 		21E617E31CE60676005D67E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */; };
+		2247FA02C352575B64B32139 /* Pods_FSTeamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D8687A72BA085B3E221DC0 /* Pods_FSTeamTests.framework */; };
+		3689B7FABD553783ECB8C122 /* Pods_FSTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A99D6CD5BDD61468162C911 /* Pods_FSTeam.framework */; };
 		5551EE0CB3C8CB1B21352BCB /* Pods_Abstract_Swift_BaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D030CC4C6950A7AF958E88 /* Pods_Abstract_Swift_BaseTests.framework */; };
 		E7566D9F1A1F85CB00DE3010 /* Main_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */; };
 		E75BB8051E8CFEF90035C2DA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75BB8071E8CFEF90035C2DA /* Main_iPad.storyboard */; };
@@ -37,27 +39,30 @@
 			containerPortal = 21DB300719DD2289003A418D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 21DB300E19DD2289003A418D;
-			remoteInfo = "FSTeam";
+			remoteInfo = FSTeam;
 		};
 		212D01901BB1986B00B34340 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 21DB300719DD2289003A418D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 21DB300E19DD2289003A418D;
-			remoteInfo = "FSTeam";
+			remoteInfo = FSTeam;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05CD8AA04A95189B131D1806 /* Pods-FSTeamTests.appstore staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.appstore staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.appstore staging.xcconfig"; sourceTree = "<group>"; };
 		077D69E51F9DE831008F63DA /* ExampleApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApiRouter.swift; sourceTree = "<group>"; };
+		0A1DC1EC1819BD136F198A99 /* Pods-FSTeamTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.test.xcconfig"; sourceTree = "<group>"; };
+		0A99D6CD5BDD61468162C911 /* Pods_FSTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1218E154FF6E17259B67BF8D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1710DE5C1C453AF700912C5B /* FSTeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSTeamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1710DE5C1C453AF700912C5B /* FSTeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSTeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1710DE5E1C453AF800912C5B /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		1710DE601C453AF800912C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194478471AAF90AF00A34744 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		19D856C71AB5EDDF0014C459 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		2124DF9F1A8DF48000422313 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		212D018B1BB1986B00B34340 /* FSTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSTeamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212D018B1BB1986B00B34340 /* FSTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212D018D1BB1986B00B34340 /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
 		212D018F1BB1986B00B34340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		213B89BE19F01A1E005D3749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,30 +71,38 @@
 		21513BBD19EBCBFA00EE6273 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		2158286B1A91E2F200833BE6 /* mogend.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = mogend.sh; path = Scripts/mogend.sh; sourceTree = "<group>"; };
 		2158286E1A91E56600833BE6 /* ApiSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiSessionManager.swift; sourceTree = "<group>"; };
-		218C64B71BA078BA00EEEDF1 /* FSTeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FSTeam.xcdatamodel"; sourceTree = "<group>"; };
+		218C64B71BA078BA00EEEDF1 /* FSTeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FSTeam.xcdatamodel; sourceTree = "<group>"; };
 		218C64BB1BA07D3800EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_Storyboard.strings; sourceTree = "<group>"; };
 		218C64C21BA07E1F00EEEDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		218C64C31BA07E4300EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		21C9F2DF19E833300084D18D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		21DB300F19DD2289003A418D /* FSTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSTeam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DB300F19DD2289003A418D /* FSTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DB301319DD2289003A418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DB301419DD2289003A418D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21DB301E19DD2289003A418D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		21DB303819DD2341003A418D /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		21DB304819DD2D6D003A418D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		21E617E41CE61BBF005D67E0 /* generate_entities.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = generate_entities.sh; path = "FSTeam/Scripts/generate_entities.sh"; sourceTree = SOURCE_ROOT; };
+		21E617E41CE61BBF005D67E0 /* generate_entities.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = generate_entities.sh; path = FSTeam/Scripts/generate_entities.sh; sourceTree = SOURCE_ROOT; };
 		2265BB77CF808D30857E6BB8 /* Pods-Abstract-FSTeamTests.appstore staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.appstore staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.appstore staging.xcconfig"; sourceTree = "<group>"; };
 		2EDBCEC62EED8E435D38F2E2 /* Pods-Abstract-FSTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.release.xcconfig"; sourceTree = "<group>"; };
 		30E10CA8C13400E183AC2638 /* Pods-Abstract-FSTeamTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		3BF404C72D36EAC66B079469 /* Pods-FSTeamTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		515E1CD58AEDDB60304AE65F /* Pods-Abstract-FSTeam.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.appstore.xcconfig"; sourceTree = "<group>"; };
+		52B8A3080FA9657B3D52FC22 /* Pods-FSTeamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.release.xcconfig"; sourceTree = "<group>"; };
 		5A6EEF9457403CA02590F64D /* Pods-Abstract-FSTeam.appstore staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.appstore staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.appstore staging.xcconfig"; sourceTree = "<group>"; };
+		6251A881BC0B42F954A765A8 /* Pods-FSTeam.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.appstore.xcconfig"; sourceTree = "<group>"; };
 		68D030CC4C6950A7AF958E88 /* Pods_Abstract_Swift_BaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_BaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B3A86E0650E2ED8BA485B6 /* Pods-Abstract-FSTeam.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.debug staging.xcconfig"; sourceTree = "<group>"; };
+		87BB3D540C98D0BB365B90D1 /* Pods-FSTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.release.xcconfig"; sourceTree = "<group>"; };
 		8BE8A10D4F6C40D2CFF8881F /* Pods-Abstract-FSTeam.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.test.xcconfig"; sourceTree = "<group>"; };
+		8BFA4ADCC24DCDD1E07D1813 /* Pods-FSTeamTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		939D201EA38A5C54F69E5C78 /* Pods-Abstract-FSTeamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2D8687A72BA085B3E221DC0 /* Pods_FSTeamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSTeamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66C84DF09B94596F79FE884 /* Pods_Abstract_Swift_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD8F685102D5C7EA4F9C4CD /* Pods-FSTeam.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.release staging.xcconfig"; sourceTree = "<group>"; };
 		C09E73AD933DF021CF291D2B /* Pods_Abstract_Swift_BaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_BaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18DDC57DEA5B5A78555034E /* Pods-FSTeam.appstore staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.appstore staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.appstore staging.xcconfig"; sourceTree = "<group>"; };
 		C8ACEDDEF27D7CEC8050008B /* Pods-Abstract-FSTeamTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		CD668A6E2E26FB6FE9EC39E2 /* Pods-Abstract-FSTeamTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.test.xcconfig"; sourceTree = "<group>"; };
 		E728A0EB1E85717400CE6723 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = SOURCE_ROOT; };
@@ -104,6 +117,8 @@
 		E7C62E131E8517FA0045B9F3 /* FSTestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSTestHelpers.swift; sourceTree = "<group>"; };
 		E7C62E1A1E8519840045B9F3 /* FSUITestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSUITestHelpers.swift; sourceTree = "<group>"; };
 		F5569AFF31D6AD52CF989338 /* Pods-Abstract-FSTeam.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.release staging.xcconfig"; sourceTree = "<group>"; };
+		F9FDBC46B2B0EE3FEACD7230 /* Pods-FSTeam.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.test.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.test.xcconfig"; sourceTree = "<group>"; };
+		FD934FF3A96F21677B2B0E05 /* Pods-FSTeamTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.release staging.xcconfig"; sourceTree = "<group>"; };
 		FE4BF9F76D2787DC0E27216D /* Pods-Abstract-FSTeamTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.release staging.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5551EE0CB3C8CB1B21352BCB /* Pods_Abstract_Swift_BaseTests.framework in Frameworks */,
+				2247FA02C352575B64B32139 /* Pods_FSTeamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +145,7 @@
 			files = (
 				213B89BF19F01A1E005D3749 /* CoreGraphics.framework in Frameworks */,
 				F0487B3D81C1B66DDEAEB7DB /* Pods_Abstract_Swift_Base.framework in Frameworks */,
+				3689B7FABD553783ECB8C122 /* Pods_FSTeam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +314,7 @@
 				212D018C1BB1986B00B34340 /* UnitTests */,
 				1710DE5D1C453AF800912C5B /* UITests */,
 			);
-			name = "FSTeamTests";
+			name = FSTeamTests;
 			path = "New Group";
 			sourceTree = "<group>";
 		};
@@ -309,7 +326,7 @@
 				1710DE601C453AF800912C5B /* Info.plist */,
 			);
 			name = UITests;
-			path = "FSTeamUITests";
+			path = FSTeamUITests;
 			sourceTree = "<group>";
 		};
 		19D856BF1AB5ECF50014C459 /* Travis CI */ = {
@@ -328,7 +345,7 @@
 				212D018F1BB1986B00B34340 /* Info.plist */,
 			);
 			name = UnitTests;
-			path = "FSTeamTests";
+			path = FSTeamTests;
 			sourceTree = "<group>";
 		};
 		215828691A91E2E000833BE6 /* Scripts */ = {
@@ -396,7 +413,7 @@
 				0721AE302046EF30009B4474 /* Services */,
 				0721AE322046EF9F009B4474 /* Stroyboards */,
 			);
-			path = "FSTeam";
+			path = FSTeam;
 			sourceTree = "<group>";
 		};
 		5C5B41AD2B6E0DFDD4D53E6B /* Frameworks */ = {
@@ -411,6 +428,8 @@
 				B66C84DF09B94596F79FE884 /* Pods_Abstract_Swift_Base.framework */,
 				68D030CC4C6950A7AF958E88 /* Pods_Abstract_Swift_BaseTests.framework */,
 				C09E73AD933DF021CF291D2B /* Pods_Abstract_Swift_BaseUITests.framework */,
+				0A99D6CD5BDD61468162C911 /* Pods_FSTeam.framework */,
+				A2D8687A72BA085B3E221DC0 /* Pods_FSTeamTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -430,6 +449,17 @@
 				2EDBCEC62EED8E435D38F2E2 /* Pods-Abstract-FSTeam.release.xcconfig */,
 				8BE8A10D4F6C40D2CFF8881F /* Pods-Abstract-FSTeam.test.xcconfig */,
 				939D201EA38A5C54F69E5C78 /* Pods-Abstract-FSTeamTests.release.xcconfig */,
+				87BB3D540C98D0BB365B90D1 /* Pods-FSTeam.release.xcconfig */,
+				F9FDBC46B2B0EE3FEACD7230 /* Pods-FSTeam.test.xcconfig */,
+				6251A881BC0B42F954A765A8 /* Pods-FSTeam.appstore.xcconfig */,
+				BDD8F685102D5C7EA4F9C4CD /* Pods-FSTeam.release staging.xcconfig */,
+				C18DDC57DEA5B5A78555034E /* Pods-FSTeam.appstore staging.xcconfig */,
+				3BF404C72D36EAC66B079469 /* Pods-FSTeamTests.debug staging.xcconfig */,
+				0A1DC1EC1819BD136F198A99 /* Pods-FSTeamTests.test.xcconfig */,
+				8BFA4ADCC24DCDD1E07D1813 /* Pods-FSTeamTests.appstore.xcconfig */,
+				FD934FF3A96F21677B2B0E05 /* Pods-FSTeamTests.release staging.xcconfig */,
+				05CD8AA04A95189B131D1806 /* Pods-FSTeamTests.appstore staging.xcconfig */,
+				52B8A3080FA9657B3D52FC22 /* Pods-FSTeamTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -479,8 +509,8 @@
 			dependencies = (
 				1710DE621C453AF800912C5B /* PBXTargetDependency */,
 			);
-			name = "FSTeamUITests";
-			productName = "FSTeamUITests";
+			name = FSTeamUITests;
+			productName = FSTeamUITests;
 			productReference = 1710DE5C1C453AF700912C5B /* FSTeamUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -492,15 +522,14 @@
 				212D01871BB1986B00B34340 /* Sources */,
 				212D01881BB1986B00B34340 /* Frameworks */,
 				212D01891BB1986B00B34340 /* Resources */,
-				FD5D7D33D1B38CDFEFAD7404 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				212D01911BB1986B00B34340 /* PBXTargetDependency */,
 			);
-			name = "FSTeamTests";
-			productName = "FSTeamTests";
+			name = FSTeamTests;
+			productName = FSTeamTests;
 			productReference = 212D018B1BB1986B00B34340 /* FSTeamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -508,8 +537,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21DB303119DD2289003A418D /* Build configuration list for PBXNativeTarget "FSTeam" */;
 			buildPhases = (
-				07B2A25A220ADE80001EC701 /* ShellScript */,
 				CC612261ED91271563C1FE5B /* [CP] Check Pods Manifest.lock */,
+				07B2A25A220ADE80001EC701 /* ShellScript */,
 				21DB300B19DD2289003A418D /* Sources */,
 				21DB300C19DD2289003A418D /* Frameworks */,
 				21DB300D19DD2289003A418D /* Resources */,
@@ -520,8 +549,8 @@
 			);
 			dependencies = (
 			);
-			name = "FSTeam";
-			productName = "FSTeam";
+			name = FSTeam;
+			productName = FSTeam;
 			productReference = 21DB300F19DD2289003A418D /* FSTeam.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -650,7 +679,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Abstract-FSTeamTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FSTeamTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -668,7 +697,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Abstract-FSTeam-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FSTeam-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -681,42 +710,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FSHelpers+Swift/FSHelpers_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSHelpers_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD5D7D33D1B38CDFEFAD7404 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/FSHelpers+Swift/FSHelpers_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSHelpers_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -805,11 +812,11 @@
 /* Begin XCBuildConfiguration section */
 		077D69E71F9DF31A008F63DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 939D201EA38A5C54F69E5C78 /* Pods-Abstract-FSTeamTests.release.xcconfig */;
+			baseConfigurationReference = 52B8A3080FA9657B3D52FC22 /* Pods-FSTeamTests.release.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = "FSTeamTests";
+				PRODUCT_NAME = FSTeamTests;
 			};
 			name = Release;
 		};
@@ -818,7 +825,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = "FSTeamUITests";
+				PRODUCT_NAME = FSTeamUITests;
 			};
 			name = Release;
 		};
@@ -832,14 +839,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FSTeamUITests/Info.plist";
+				INFOPLIST_FILE = FSTeamUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FS.FSTeamUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = "FSTeam";
+				TEST_TARGET_NAME = FSTeam;
 				USES_XCTRUNNER = YES;
 			};
 			name = "Debug Staging";
@@ -850,15 +857,15 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "FSTeamUITests/Info.plist";
+				INFOPLIST_FILE = FSTeamUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "FS.FSTeamUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = "FSTeam";
+				TEST_TARGET_NAME = FSTeam;
 				USES_XCTRUNNER = YES;
 			};
 			name = Test;
@@ -869,14 +876,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "FSTeamUITests/Info.plist";
+				INFOPLIST_FILE = FSTeamUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FS.FSTeamUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = "FSTeam";
+				TEST_TARGET_NAME = FSTeam;
 				USES_XCTRUNNER = YES;
 			};
 			name = AppStore;
@@ -887,14 +894,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "FSTeamUITests/Info.plist";
+				INFOPLIST_FILE = FSTeamUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FS.FSTeamUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = "FSTeam";
+				TEST_TARGET_NAME = FSTeam;
 				USES_XCTRUNNER = YES;
 			};
 			name = "Release Staging";
@@ -950,11 +957,11 @@
 		};
 		212D01821BB1978500B34340 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BE8A10D4F6C40D2CFF8881F /* Pods-Abstract-FSTeam.test.xcconfig */;
+			baseConfigurationReference = F9FDBC46B2B0EE3FEACD7230 /* Pods-FSTeam.test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "FSTeam Staging";
-				BUNDLE_ID = "com.flatstack.ios.FSTeam.staging";
+				BUNDLE_ID = com.flatstack.ios.FSTeam.staging;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Christopher Schultz (Q5NM9YSVCD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Christopher Schultz (Q5NM9YSVCD)";
 				DEVELOPMENT_TEAM = "";
@@ -969,7 +976,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -DTEST";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
-				PRODUCT_NAME = "FSTeam";
+				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "6abf51a6-4557-4190-a61f-8517c7946ecf";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
@@ -982,7 +989,7 @@
 		};
 		212D01951BB1986B00B34340 /* Debug Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8ACEDDEF27D7CEC8050008B /* Pods-Abstract-FSTeamTests.debug staging.xcconfig */;
+			baseConfigurationReference = 3BF404C72D36EAC66B079469 /* Pods-FSTeamTests.debug staging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -992,10 +999,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FSTeamTests/Info.plist";
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.FSTeamTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -1005,18 +1012,18 @@
 		};
 		212D01971BB1986B00B34340 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD668A6E2E26FB6FE9EC39E2 /* Pods-Abstract-FSTeamTests.test.xcconfig */;
+			baseConfigurationReference = 0A1DC1EC1819BD136F198A99 /* Pods-FSTeamTests.test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = "FSTeamTests/Info.plist";
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.FSTeamTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -1027,16 +1034,16 @@
 		};
 		212D01981BB1986B00B34340 /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30E10CA8C13400E183AC2638 /* Pods-Abstract-FSTeamTests.appstore.xcconfig */;
+			baseConfigurationReference = 8BFA4ADCC24DCDD1E07D1813 /* Pods-FSTeamTests.appstore.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "FSTeamTests/Info.plist";
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.FSTeamTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -1046,16 +1053,16 @@
 		};
 		212D01991BB1986B00B34340 /* Release Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE4BF9F76D2787DC0E27216D /* Pods-Abstract-FSTeamTests.release staging.xcconfig */;
+			baseConfigurationReference = FD934FF3A96F21677B2B0E05 /* Pods-FSTeamTests.release staging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "FSTeamTests/Info.plist";
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.FSTeamTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -1116,7 +1123,7 @@
 		};
 		21DB304D19DD3B30003A418D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EDBCEC62EED8E435D38F2E2 /* Pods-Abstract-FSTeam.release.xcconfig */;
+			baseConfigurationReference = 87BB3D540C98D0BB365B90D1 /* Pods-FSTeam.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				API_VERSION = v1;
@@ -1175,8 +1182,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_DISPLAY_NAME = "FSTeam";
-				BUNDLE_ID = "com.flatstack.FSTeam";
+				BUNDLE_DISPLAY_NAME = FSTeam;
+				BUNDLE_ID = com.flatstack.FSTeam;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -1186,7 +1193,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = "FSTeam/Info.plist";
+				INFOPLIST_FILE = FSTeam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1197,7 +1204,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
-				PRODUCT_NAME = "FSTeam";
+				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
@@ -1210,11 +1217,11 @@
 		};
 		21DB305019DD3B48003A418D /* Release Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5569AFF31D6AD52CF989338 /* Pods-Abstract-FSTeam.release staging.xcconfig */;
+			baseConfigurationReference = BDD8F685102D5C7EA4F9C4CD /* Pods-FSTeam.release staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				BUNDLE_DISPLAY_NAME = "FSTeam Staging";
-				BUNDLE_ID = "com.flatstack.ios.FSTeam.staging";
+				BUNDLE_ID = com.flatstack.ios.FSTeam.staging;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				DEVELOPMENT_TEAM = "";
@@ -1226,7 +1233,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
-				PRODUCT_NAME = "FSTeam";
+				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "1a9506f9-983f-4087-a07a-26355b883ef8";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
@@ -1289,11 +1296,11 @@
 		};
 		E7294D9B1E85529D0011DA63 /* AppStore Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A6EEF9457403CA02590F64D /* Pods-Abstract-FSTeam.appstore staging.xcconfig */;
+			baseConfigurationReference = C18DDC57DEA5B5A78555034E /* Pods-FSTeam.appstore staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				BUNDLE_DISPLAY_NAME = "FSTeam Staging";
-				BUNDLE_ID = "com.flatstack.ios.FSTeam.staging";
+				BUNDLE_ID = com.flatstack.ios.FSTeam.staging;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				DEVELOPMENT_TEAM = "";
@@ -1305,7 +1312,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
-				PRODUCT_NAME = "FSTeam";
+				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "1f21326e-340a-428d-a6c3-4eb9873475fc";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
@@ -1317,16 +1324,16 @@
 		};
 		E7294D9C1E85529D0011DA63 /* AppStore Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2265BB77CF808D30857E6BB8 /* Pods-Abstract-FSTeamTests.appstore staging.xcconfig */;
+			baseConfigurationReference = 05CD8AA04A95189B131D1806 /* Pods-FSTeamTests.appstore staging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "FSTeamTests/Info.plist";
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.FSTeamTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
@@ -1339,13 +1346,13 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "FSTeamUITests/Info.plist";
+				INFOPLIST_FILE = FSTeamUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FS.FSTeamUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "FSTeam";
+				TEST_TARGET_NAME = FSTeam;
 				USES_XCTRUNNER = YES;
 			};
 			name = "AppStore Staging";
@@ -1401,11 +1408,11 @@
 		};
 		E736C5DF1A25320400B8986E /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515E1CD58AEDDB60304AE65F /* Pods-Abstract-FSTeam.appstore.xcconfig */;
+			baseConfigurationReference = 6251A881BC0B42F954A765A8 /* Pods-FSTeam.appstore.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_DISPLAY_NAME = "FSTeam";
-				BUNDLE_ID = "com.flatstack.ios.FSTeam";
+				BUNDLE_DISPLAY_NAME = FSTeam;
+				BUNDLE_ID = com.flatstack.ios.FSTeam;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				DEVELOPMENT_TEAM = "";
@@ -1417,7 +1424,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
-				PRODUCT_NAME = "FSTeam";
+				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "4bedd41f-7037-4a27-a19b-53e7697ca528";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
@@ -1489,7 +1496,7 @@
 				218C64B71BA078BA00EEEDF1 /* FSTeam.xcdatamodel */,
 			);
 			currentVersion = 218C64B71BA078BA00EEEDF1 /* FSTeam.xcdatamodel */;
-			path = "FSTeam.xcdatamodeld";
+			path = FSTeam.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
