@@ -10,7 +10,6 @@ import Foundation
 
 class APIManager: NSObject {
     
-    
     static let sharedInstance: APIManager = {
         let instance = APIManager()
         return instance
@@ -50,7 +49,7 @@ enum InitializationOperationError: Error {
     case notImplemented
 }
 
-//MARK: - Basic methods
+// MARK: - Basic methods
 
 typealias APIManagerSuccessBlock    = (_ task: URLSessionDataTask, _ response: Dictionary<String, AnyObject>) -> Void
 typealias APIManagerFailureBlock    = (_ task: URLSessionDataTask?, _ error: NSError?) -> Void
@@ -58,11 +57,11 @@ typealias APIManagerProgressBlock   = (_ progress: Progress) -> Void
 
 extension AFHTTPSessionManager {
     
-    func API_GET(_ URLString : String,
-                 params   : AnyObject?,
-                 success  : APIManagerSuccessBlock?,
-                 failure  : APIManagerFailureBlock?,
-                 progress : APIManagerProgressBlock? = nil) throws -> URLSessionDataTask {
+    func API_GET(_ URLString: String,
+                 params: AnyObject?,
+                 success: APIManagerSuccessBlock?,
+                 failure: APIManagerFailureBlock?,
+                 progress: APIManagerProgressBlock? = nil) throws -> URLSessionDataTask {
         
         let task = self.get(URLString, parameters: params, progress: { (progressState) in
             DispatchQueue.main.async {
@@ -92,13 +91,11 @@ extension AFHTTPSessionManager {
         return lTask
     }
 
-    func API_POST(_ URLString : String,
-                  params   : AnyObject?,
-                  success  : APIManagerSuccessBlock?,
-                  failure  : APIManagerFailureBlock?,
-                  progress : APIManagerProgressBlock? = nil) throws -> URLSessionDataTask {
-        
-        
+    func API_POST(_ URLString: String,
+                  params: AnyObject?,
+                  success: APIManagerSuccessBlock?,
+                  failure: APIManagerFailureBlock?,
+                  progress: APIManagerProgressBlock? = nil) throws -> URLSessionDataTask {
         
         let task = self.post(URLString, parameters: params,
                              
@@ -130,10 +127,10 @@ extension AFHTTPSessionManager {
         return lTask
     }
     
-    func API_PATCH(_ URLString : String,
-                   params   : AnyObject?,
-                   success  : APIManagerSuccessBlock?,
-                   failure  : APIManagerFailureBlock?) throws -> URLSessionDataTask {
+    func API_PATCH(_ URLString: String,
+                   params: AnyObject?,
+                   success: APIManagerSuccessBlock?,
+                   failure: APIManagerFailureBlock?) throws -> URLSessionDataTask {
         
         let task = self.patch(URLString, parameters: params, success: { (task, response) in
             if let lResponse = response as? Dictionary<String, AnyObject> {
@@ -157,10 +154,10 @@ extension AFHTTPSessionManager {
         return lTask
     }
     
-    func API_DELETE(_ URLString : String,
-                    params   : AnyObject?,
-                    success  : APIManagerSuccessBlock?,
-                    failure  : APIManagerFailureBlock?) throws -> URLSessionDataTask {
+    func API_DELETE(_ URLString: String,
+                    params: AnyObject?,
+                    success: APIManagerSuccessBlock?,
+                    failure: APIManagerFailureBlock?) throws -> URLSessionDataTask {
         let task = self.delete(URLString, parameters: params,
                                
                                success: { (task, response) in

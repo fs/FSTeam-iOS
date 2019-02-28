@@ -8,19 +8,17 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        if IS_RUNNING_TESTS() {
-            self.setupProjectForTests()
-        } else {
-            self.setupProject()
-        }
+        self.setupProject()
         
         return true
     }
@@ -48,13 +46,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
     }
     
-    //MARK: - Remote notifications
+    // MARK: - Remote notifications
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         self.saveRemoteNotificationTokenData(application, deviceToken: deviceToken)
     }
 }
 
-//MARK: - Settings
+// MARK: - Settings
 fileprivate extension AppDelegate {
     
     func setupProject() {
@@ -62,14 +60,9 @@ fileprivate extension AppDelegate {
         self.shareSetupProject()
         
         self.setupProjectForTests()
-        
-        // Magica Record
-//        self.setupMagicalRecord()
-        
-        //setup SDWebImage
-//        self.setupSDWebImage()
-        
-        //setup Crashlytics
+
+        FirebaseApp.configure()
+
         Fabric.with([Crashlytics.self])
     }
     

@@ -1,6 +1,0 @@
-framework module Pods_FSTeam {
-  umbrella header "Pods-FSTeam-umbrella.h"
-
-  export *
-  module * { export * }
-}
