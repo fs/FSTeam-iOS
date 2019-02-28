@@ -68,11 +68,11 @@ func GET_ENVIRONMENT(key: String) -> String? {
 
 //MARK: - Bundles
 func BUNDLE_FOR_UNIT_TESTS() -> Bundle {
-    return Bundle(identifier: "com.flatstack.Swift-BaseTests")!
+    return Bundle(identifier: "com.flatstack.FSTeamTests")!
 }
 
 func BUNDLE_FOR_UI_TESTS() -> Bundle {
-    return Bundle(identifier: "FS.Swift-BaseUITests")!
+    return Bundle(identifier: "FS.FSTeamUITests")!
 }
 
 func INFO_DICTIONARY_FOR_CURRENT_BUNDLE() -> [String : Any]? {

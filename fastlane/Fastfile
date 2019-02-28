@@ -20,7 +20,7 @@ platform :ios do
   #----------Preparing
   before_all do
     #setting default path to info plist
-    info_plist_path = File.expand_path("../Swift-Base/Info.plist")
+    info_plist_path = File.expand_path("../FSTeam/Info.plist")
     ENV["FL_GET_INFO_PLIST_PATH"] = info_plist_path
     ENV["FL_SET_INFO_PLIST_PATH"] = info_plist_path
 
@@ -39,8 +39,8 @@ platform :ios do
     ENV["SCHEME_APPSTORE"] = "AppStore"
     ENV["SCHEME_APPSTORE_STAGING"] = "AppStore Staging"
 
-    ENV["BUNDLE_ID_APPSTORE"] = "com.flatstack.ios.Swift-Base"
-    ENV["BUNDLE_ID_APPSTORE_STAGING"] = "com.flatstack.ios.Swift-Base.staging"
+    ENV["BUNDLE_ID_APPSTORE"] = "com.flatstack.ios.FSTeam"
+    ENV["BUNDLE_ID_APPSTORE_STAGING"] = "com.flatstack.ios.FSTeam.staging"
 
     ENV["CHANGELOG_FILE"] = File.expand_path("../changelog.txt")
   end

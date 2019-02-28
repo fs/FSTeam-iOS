@@ -14,10 +14,10 @@ abstract_target 'Abstract' do
     pod 'Alamofire', '~> 4.5'
     pod 'MagicalRecord'
     
-    target 'Swift-Base' do
+    target 'FSTeam' do
     end
     
-    target 'Swift-BaseTests' do
+    target 'FSTeamTests' do
     end
     
 end

@@ -1,6 +1,6 @@
 //
 //  BridgeHeader.h
-//  Swift-Base
+//  FSTeam
 //
 //  Created by Kruperfone on 02.10.14.
 //  Copyright (c) 2014 Flatstack. All rights reserved.
