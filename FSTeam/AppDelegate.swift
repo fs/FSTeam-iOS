@@ -69,20 +69,6 @@ fileprivate extension AppDelegate {
     func setupProjectForTests() {
         
         self.shareSetupProject()
-        
-        #if TEST
-            switch TestingMode() {
-            case .Unit:
-                Log("Unit Tests")
-                self.window?.rootViewController = UIViewController()
-                return
-                
-            case .UI:
-                Log("UI Tests")
-                //setting custom the first view controller
-//                self.window?.rootViewController = UIViewController()
-            }
-        #endif
     }
     
     func shareSetupProject() {

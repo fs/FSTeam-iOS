@@ -21,13 +21,17 @@ class AuthorizationServiceTests: XCTestCase {
 
     func testSignIn() {
         // arrange
+        let expectedUID: String = "123"
+
         let authorizationService = DefaultAuthorizationService()
-        let expectedUser = DefaultAccountUser()
 
         // act
+        expectation(description: "<#T##String#>")
         let actualUser = authorizationService.signIn()
 
         // assert
-        XCTAssertEqual(actualUser, expectedUser)
+
+        XCTAssertEqual(actualUser.uid, expectedUID)
+
     }
 }

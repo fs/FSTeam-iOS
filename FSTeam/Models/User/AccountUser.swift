@@ -8,9 +8,11 @@
 
 import Foundation
 
-protocol AccountUser {
+protocol AccountUser: AnyObject {
 
     // MARK: - Instance Properties
+
+    var uid: String { get set }
 
     var firstName: String? { get set }
     var lastName: String? { get set }

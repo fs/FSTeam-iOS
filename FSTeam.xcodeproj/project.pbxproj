@@ -19,6 +19,8 @@
 		21DB304919DD2D6D003A418D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB304819DD2D6D003A418D /* Constants.swift */; };
 		21E617E31CE60676005D67E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */; };
 		5F0A3435B9DDE085886968C6 /* Pods_Abstract_FSTeamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E2B45FCADA5DE139A79B7C /* Pods_Abstract_FSTeamTests.framework */; };
+		9AE7BDEA223032EB00C65075 /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7BDE9223032EB00C65075 /* AuthorizationManager.swift */; };
+		9AE7BDEC223032FC00C65075 /* DefaultAuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7BDEB223032FC00C65075 /* DefaultAuthorizationManager.swift */; };
 		CBE2F88522281EDF006B0FA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE2F88422281EDF006B0FA4 /* GoogleService-Info.plist */; };
 		CBE2F88E22282581006B0FA4 /* AutorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F88D22282581006B0FA4 /* AutorizationViewController.swift */; };
 		CBE2F891222825A1006B0FA4 /* Autorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE2F890222825A1006B0FA4 /* Autorization.storyboard */; };
@@ -81,6 +83,8 @@
 		8BE8A10D4F6C40D2CFF8881F /* Pods-Abstract-FSTeam.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.test.xcconfig"; sourceTree = "<group>"; };
 		8BFA4ADCC24DCDD1E07D1813 /* Pods-FSTeamTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		939D201EA38A5C54F69E5C78 /* Pods-Abstract-FSTeamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AE7BDE9223032EB00C65075 /* AuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
+		9AE7BDEB223032FC00C65075 /* DefaultAuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAuthorizationManager.swift; sourceTree = "<group>"; };
 		A2D8687A72BA085B3E221DC0 /* Pods_FSTeamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSTeamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66C84DF09B94596F79FE884 /* Pods_Abstract_Swift_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD8F685102D5C7EA4F9C4CD /* Pods-FSTeam.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.release staging.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 		0721AE282046EE17009B4474 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				9AE7BDE8223032BC00C65075 /* Authorization */,
 				0721AE292046EE25009B4474 /* API */,
 			);
 			path = Managers;
@@ -343,6 +348,15 @@
 				52B8A3080FA9657B3D52FC22 /* Pods-FSTeamTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AE7BDE8223032BC00C65075 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				9AE7BDE9223032EB00C65075 /* AuthorizationManager.swift */,
+				9AE7BDEB223032FC00C65075 /* DefaultAuthorizationManager.swift */,
+			);
+			path = Authorization;
 			sourceTree = "<group>";
 		};
 		CBE2F888222824D8006B0FA4 /* Services */ = {
@@ -727,11 +741,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE7BDEC223032FC00C65075 /* DefaultAuthorizationManager.swift in Sources */,
 				CBE2F89422282808006B0FA4 /* AuthorizationService.swift in Sources */,
 				CBE2F8B222282C27006B0FA4 /* DefaultAuthorizationService.swift in Sources */,
 				218C64B81BA078BA00EEEDF1 /* FSTeam.xcdatamodeld in Sources */,
 				077D69E61F9DE831008F63DA /* ExampleApiRouter.swift in Sources */,
 				214F4FF41BFDC2D90084BE32 /* Helpers.swift in Sources */,
+				9AE7BDEA223032EB00C65075 /* AuthorizationManager.swift in Sources */,
 				21DB301519DD2289003A418D /* AppDelegate.swift in Sources */,
 				2158286F1A91E56600833BE6 /* ApiSessionManager.swift in Sources */,
 				21DB304919DD2D6D003A418D /* Constants.swift in Sources */,

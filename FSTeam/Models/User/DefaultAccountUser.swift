@@ -8,9 +8,11 @@
 
 import Foundation
 
-struct DefaultAccountUser: AccountUser {
+class DefaultAccountUser: AccountUser {
 
     // MARK: - Instance Properties
+
+    var uid: String = ""
 
     var firstName: String?
     var lastName: String?
