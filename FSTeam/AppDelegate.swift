@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         self.setupProject()
-        
+
         return true
     }
 
@@ -50,6 +50,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         self.saveRemoteNotificationTokenData(application, deviceToken: deviceToken)
     }
+
+    private func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any])
+        -> Bool {
+            return GIDSignIn.sharedInstance().handle(url,
+                                                     sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+                                                     annotation: [:])
+    }
 }
 
 // MARK: - Settings
@@ -62,6 +69,8 @@ fileprivate extension AppDelegate {
         self.setupProjectForTests()
 
         FirebaseApp.configure()
+
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
 
         Fabric.with([Crashlytics.self])
     }

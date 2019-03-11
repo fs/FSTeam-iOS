@@ -22,7 +22,7 @@
 		9AE7BDEA223032EB00C65075 /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7BDE9223032EB00C65075 /* AuthorizationManager.swift */; };
 		9AE7BDEC223032FC00C65075 /* DefaultAuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7BDEB223032FC00C65075 /* DefaultAuthorizationManager.swift */; };
 		CBE2F88522281EDF006B0FA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE2F88422281EDF006B0FA4 /* GoogleService-Info.plist */; };
-		CBE2F88E22282581006B0FA4 /* AutorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F88D22282581006B0FA4 /* AutorizationViewController.swift */; };
+		CBE2F88E22282581006B0FA4 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F88D22282581006B0FA4 /* AuthorizationViewController.swift */; };
 		CBE2F891222825A1006B0FA4 /* Autorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE2F890222825A1006B0FA4 /* Autorization.storyboard */; };
 		CBE2F89422282808006B0FA4 /* AuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F89322282808006B0FA4 /* AuthorizationService.swift */; };
 		CBE2F89C2228292C006B0FA4 /* AccountUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F89B2228292C006B0FA4 /* AccountUser.swift */; };
@@ -93,7 +93,7 @@
 		C8ACEDDEF27D7CEC8050008B /* Pods-Abstract-FSTeamTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		CBE2F88422281EDF006B0FA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CBE2F88622282266006B0FA4 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBE2F88D22282581006B0FA4 /* AutorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationViewController.swift; sourceTree = "<group>"; };
+		CBE2F88D22282581006B0FA4 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		CBE2F890222825A1006B0FA4 /* Autorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Autorization.storyboard; sourceTree = "<group>"; };
 		CBE2F89322282808006B0FA4 /* AuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationService.swift; sourceTree = "<group>"; };
 		CBE2F89B2228292C006B0FA4 /* AccountUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUser.swift; sourceTree = "<group>"; };
@@ -371,7 +371,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE2F88F22282592006B0FA4 /* Storyboard */,
-				CBE2F88D22282581006B0FA4 /* AutorizationViewController.swift */,
+				CBE2F88D22282581006B0FA4 /* AuthorizationViewController.swift */,
 			);
 			path = Autorization;
 			sourceTree = "<group>";
@@ -751,7 +751,7 @@
 				21DB301519DD2289003A418D /* AppDelegate.swift in Sources */,
 				2158286F1A91E56600833BE6 /* ApiSessionManager.swift in Sources */,
 				21DB304919DD2D6D003A418D /* Constants.swift in Sources */,
-				CBE2F88E22282581006B0FA4 /* AutorizationViewController.swift in Sources */,
+				CBE2F88E22282581006B0FA4 /* AuthorizationViewController.swift in Sources */,
 				CBE2F89C2228292C006B0FA4 /* AccountUser.swift in Sources */,
 				CBE2F8B422282EFB006B0FA4 /* DefaultAccountUser.swift in Sources */,
 			);
