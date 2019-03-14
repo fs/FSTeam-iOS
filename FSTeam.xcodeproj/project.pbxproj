@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		077D69E61F9DE831008F63DA /* ExampleApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D69E51F9DE831008F63DA /* ExampleApiRouter.swift */; };
-		1710DE5F1C453AF800912C5B /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710DE5E1C453AF800912C5B /* ExampleUITests.swift */; };
-		2124DFA01A8DF48000422313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2124DF9F1A8DF48000422313 /* ViewController.swift */; };
-		212D018E1BB1986B00B34340 /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D018D1BB1986B00B34340 /* APITests.swift */; };
+		1CAA9EFFA2C1D356A0A7023E /* Pods_Abstract_FSTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5BFEDCB05ACA6100B443C /* Pods_Abstract_FSTeam.framework */; };
 		213B89BF19F01A1E005D3749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213B89BE19F01A1E005D3749 /* CoreGraphics.framework */; };
 		214F4FF41BFDC2D90084BE32 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214F4FF31BFDC2D90084BE32 /* Helpers.swift */; };
 		2158286F1A91E56600833BE6 /* ApiSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158286E1A91E56600833BE6 /* ApiSessionManager.swift */; };
@@ -20,28 +18,24 @@
 		21DB301F19DD2289003A418D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DB301E19DD2289003A418D /* Images.xcassets */; };
 		21DB304919DD2D6D003A418D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB304819DD2D6D003A418D /* Constants.swift */; };
 		21E617E31CE60676005D67E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */; };
-		2247FA02C352575B64B32139 /* Pods_FSTeamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D8687A72BA085B3E221DC0 /* Pods_FSTeamTests.framework */; };
-		3689B7FABD553783ECB8C122 /* Pods_FSTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A99D6CD5BDD61468162C911 /* Pods_FSTeam.framework */; };
-		5551EE0CB3C8CB1B21352BCB /* Pods_Abstract_Swift_BaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D030CC4C6950A7AF958E88 /* Pods_Abstract_Swift_BaseTests.framework */; };
+		5F0A3435B9DDE085886968C6 /* Pods_Abstract_FSTeamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E2B45FCADA5DE139A79B7C /* Pods_Abstract_FSTeamTests.framework */; };
+		9AE7BDEA223032EB00C65075 /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7BDE9223032EB00C65075 /* AuthorizationManager.swift */; };
+		9AE7BDEC223032FC00C65075 /* DefaultAuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7BDEB223032FC00C65075 /* DefaultAuthorizationManager.swift */; };
+		CBE2F88522281EDF006B0FA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE2F88422281EDF006B0FA4 /* GoogleService-Info.plist */; };
+		CBE2F88E22282581006B0FA4 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F88D22282581006B0FA4 /* AuthorizationViewController.swift */; };
+		CBE2F891222825A1006B0FA4 /* Autorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE2F890222825A1006B0FA4 /* Autorization.storyboard */; };
+		CBE2F89422282808006B0FA4 /* AuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F89322282808006B0FA4 /* AuthorizationService.swift */; };
+		CBE2F89C2228292C006B0FA4 /* AccountUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F89B2228292C006B0FA4 /* AccountUser.swift */; };
+		CBE2F8A422282B2B006B0FA4 /* FSTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F8A322282B2B006B0FA4 /* FSTeamTests.swift */; };
+		CBE2F8B022282B67006B0FA4 /* AuthorizationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F8AF22282B67006B0FA4 /* AuthorizationServiceTests.swift */; };
+		CBE2F8B222282C27006B0FA4 /* DefaultAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F8B122282C27006B0FA4 /* DefaultAuthorizationService.swift */; };
+		CBE2F8B422282EFB006B0FA4 /* DefaultAccountUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F8B322282EFB006B0FA4 /* DefaultAccountUser.swift */; };
 		E7566D9F1A1F85CB00DE3010 /* Main_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */; };
 		E75BB8051E8CFEF90035C2DA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75BB8071E8CFEF90035C2DA /* Main_iPad.storyboard */; };
-		E7C62E171E8518080045B9F3 /* FSTestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C62E121E8517FA0045B9F3 /* FSTestExtension.swift */; };
-		E7C62E181E85180B0045B9F3 /* FSTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C62E131E8517FA0045B9F3 /* FSTestHelpers.swift */; };
-		E7C62E1C1E851B0F0045B9F3 /* FSUITestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C62E1A1E8519840045B9F3 /* FSUITestHelpers.swift */; };
-		E7C62E1D1E851B280045B9F3 /* FSTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C62E131E8517FA0045B9F3 /* FSTestHelpers.swift */; };
-		E7C62E1E1E851B290045B9F3 /* FSTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C62E131E8517FA0045B9F3 /* FSTestHelpers.swift */; };
-		F0487B3D81C1B66DDEAEB7DB /* Pods_Abstract_Swift_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66C84DF09B94596F79FE884 /* Pods_Abstract_Swift_Base.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1710DE611C453AF800912C5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21DB300719DD2289003A418D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 21DB300E19DD2289003A418D;
-			remoteInfo = FSTeam;
-		};
-		212D01901BB1986B00B34340 /* PBXContainerItemProxy */ = {
+		CBE2F8A622282B2B006B0FA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 21DB300719DD2289003A418D /* Project object */;
 			proxyType = 1;
@@ -56,20 +50,13 @@
 		0A1DC1EC1819BD136F198A99 /* Pods-FSTeamTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.test.xcconfig"; sourceTree = "<group>"; };
 		0A99D6CD5BDD61468162C911 /* Pods_FSTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1218E154FF6E17259B67BF8D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1710DE5C1C453AF700912C5B /* FSTeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSTeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1710DE5E1C453AF800912C5B /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
-		1710DE601C453AF800912C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E2B45FCADA5DE139A79B7C /* Pods_Abstract_FSTeamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_FSTeamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		194478471AAF90AF00A34744 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		19D856C71AB5EDDF0014C459 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
-		2124DF9F1A8DF48000422313 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		212D018B1BB1986B00B34340 /* FSTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		212D018D1BB1986B00B34340 /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
-		212D018F1BB1986B00B34340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		213B89BE19F01A1E005D3749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		213B89C019F01A40005D3749 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		214F4FF31BFDC2D90084BE32 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		21513BBD19EBCBFA00EE6273 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		2158286B1A91E2F200833BE6 /* mogend.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = mogend.sh; path = Scripts/mogend.sh; sourceTree = "<group>"; };
 		2158286E1A91E56600833BE6 /* ApiSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiSessionManager.swift; sourceTree = "<group>"; };
 		218C64B71BA078BA00EEEDF1 /* FSTeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FSTeam.xcdatamodel; sourceTree = "<group>"; };
 		218C64BB1BA07D3800EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_Storyboard.strings; sourceTree = "<group>"; };
@@ -80,10 +67,8 @@
 		21DB301319DD2289003A418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DB301419DD2289003A418D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21DB301E19DD2289003A418D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		21DB303819DD2341003A418D /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		21DB304819DD2D6D003A418D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		21E617E41CE61BBF005D67E0 /* generate_entities.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = generate_entities.sh; path = FSTeam/Scripts/generate_entities.sh; sourceTree = SOURCE_ROOT; };
 		2265BB77CF808D30857E6BB8 /* Pods-Abstract-FSTeamTests.appstore staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.appstore staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.appstore staging.xcconfig"; sourceTree = "<group>"; };
 		2EDBCEC62EED8E435D38F2E2 /* Pods-Abstract-FSTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.release.xcconfig"; sourceTree = "<group>"; };
 		30E10CA8C13400E183AC2638 /* Pods-Abstract-FSTeamTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.appstore.xcconfig"; sourceTree = "<group>"; };
@@ -98,12 +83,26 @@
 		8BE8A10D4F6C40D2CFF8881F /* Pods-Abstract-FSTeam.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.test.xcconfig"; sourceTree = "<group>"; };
 		8BFA4ADCC24DCDD1E07D1813 /* Pods-FSTeamTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		939D201EA38A5C54F69E5C78 /* Pods-Abstract-FSTeamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AE7BDE9223032EB00C65075 /* AuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
+		9AE7BDEB223032FC00C65075 /* DefaultAuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAuthorizationManager.swift; sourceTree = "<group>"; };
 		A2D8687A72BA085B3E221DC0 /* Pods_FSTeamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSTeamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66C84DF09B94596F79FE884 /* Pods_Abstract_Swift_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD8F685102D5C7EA4F9C4CD /* Pods-FSTeam.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.release staging.xcconfig"; sourceTree = "<group>"; };
 		C09E73AD933DF021CF291D2B /* Pods_Abstract_Swift_BaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_BaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18DDC57DEA5B5A78555034E /* Pods-FSTeam.appstore staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.appstore staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.appstore staging.xcconfig"; sourceTree = "<group>"; };
 		C8ACEDDEF27D7CEC8050008B /* Pods-Abstract-FSTeamTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.debug staging.xcconfig"; sourceTree = "<group>"; };
+		CBE2F88422281EDF006B0FA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBE2F88622282266006B0FA4 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE2F88D22282581006B0FA4 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		CBE2F890222825A1006B0FA4 /* Autorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Autorization.storyboard; sourceTree = "<group>"; };
+		CBE2F89322282808006B0FA4 /* AuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationService.swift; sourceTree = "<group>"; };
+		CBE2F89B2228292C006B0FA4 /* AccountUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUser.swift; sourceTree = "<group>"; };
+		CBE2F8A122282B2B006B0FA4 /* FSTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE2F8A322282B2B006B0FA4 /* FSTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSTeamTests.swift; sourceTree = "<group>"; };
+		CBE2F8A522282B2B006B0FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE2F8AF22282B67006B0FA4 /* AuthorizationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationServiceTests.swift; sourceTree = "<group>"; };
+		CBE2F8B122282C27006B0FA4 /* DefaultAuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAuthorizationService.swift; sourceTree = "<group>"; };
+		CBE2F8B322282EFB006B0FA4 /* DefaultAccountUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAccountUser.swift; sourceTree = "<group>"; };
 		CD668A6E2E26FB6FE9EC39E2 /* Pods-Abstract-FSTeamTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.test.xcconfig"; sourceTree = "<group>"; };
 		E728A0EB1E85717400CE6723 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = SOURCE_ROOT; };
 		E7294E081E8560240011DA63 /* add-key.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "add-key.sh"; path = "Scripts/add-key.sh"; sourceTree = "<group>"; };
@@ -113,9 +112,7 @@
 		E7566DA01A1F85CB00DE3010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_Storyboard.storyboard; sourceTree = "<group>"; };
 		E75BB8061E8CFEF90035C2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		E75BB8091E8CFEFB0035C2DA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPad.strings; sourceTree = "<group>"; };
-		E7C62E121E8517FA0045B9F3 /* FSTestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSTestExtension.swift; sourceTree = "<group>"; };
-		E7C62E131E8517FA0045B9F3 /* FSTestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSTestHelpers.swift; sourceTree = "<group>"; };
-		E7C62E1A1E8519840045B9F3 /* FSUITestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSUITestHelpers.swift; sourceTree = "<group>"; };
+		F4D5BFEDCB05ACA6100B443C /* Pods_Abstract_FSTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_FSTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5569AFF31D6AD52CF989338 /* Pods-Abstract-FSTeam.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.release staging.xcconfig"; sourceTree = "<group>"; };
 		F9FDBC46B2B0EE3FEACD7230 /* Pods-FSTeam.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.test.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.test.xcconfig"; sourceTree = "<group>"; };
 		FD934FF3A96F21677B2B0E05 /* Pods-FSTeamTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.release staging.xcconfig"; sourceTree = "<group>"; };
@@ -123,42 +120,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1710DE591C453AF700912C5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		212D01881BB1986B00B34340 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5551EE0CB3C8CB1B21352BCB /* Pods_Abstract_Swift_BaseTests.framework in Frameworks */,
-				2247FA02C352575B64B32139 /* Pods_FSTeamTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21DB300C19DD2289003A418D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				213B89BF19F01A1E005D3749 /* CoreGraphics.framework in Frameworks */,
-				F0487B3D81C1B66DDEAEB7DB /* Pods_Abstract_Swift_Base.framework in Frameworks */,
-				3689B7FABD553783ECB8C122 /* Pods_FSTeam.framework in Frameworks */,
+				1CAA9EFFA2C1D356A0A7023E /* Pods_Abstract_FSTeam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE2F89E22282B2B006B0FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0A3435B9DDE085886968C6 /* Pods_Abstract_FSTeamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0721AE1E2046DA40009B4474 /* BasicModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BasicModel;
-			sourceTree = "<group>";
-		};
 		0721AE202046E325009B4474 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,41 +148,11 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		0721AE212046E477009B4474 /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-				0721AE262046ED74009B4474 /* BasicDetails */,
-				0721AE252046ED67009B4474 /* BasicEdit */,
-			);
-			path = Basic;
-			sourceTree = "<group>";
-		};
-		0721AE222046E4FC009B4474 /* BasicDetails */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BasicDetails;
-			sourceTree = "<group>";
-		};
 		0721AE242046E854009B4474 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		0721AE252046ED67009B4474 /* BasicEdit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BasicEdit;
-			sourceTree = "<group>";
-		};
-		0721AE262046ED74009B4474 /* BasicDetails */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BasicDetails;
 			sourceTree = "<group>";
 		};
 		0721AE272046EDB1009B4474 /* Constants */ = {
@@ -215,6 +166,7 @@
 		0721AE282046EE17009B4474 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				9AE7BDE8223032BC00C65075 /* Authorization */,
 				0721AE292046EE25009B4474 /* API */,
 			);
 			path = Managers;
@@ -232,7 +184,6 @@
 		0721AE2B2046EE44009B4474 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0721AE212046E477009B4474 /* Basic */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,26 +191,9 @@
 		0721AE2C2046EE57009B4474 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0721AE2D2046EE87009B4474 /* Basic */,
+				CBE2F889222824E8006B0FA4 /* Autorization */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		0721AE2D2046EE87009B4474 /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-				2124DF9F1A8DF48000422313 /* ViewController.swift */,
-				0721AE2E2046EE97009B4474 /* BasicEdit */,
-				0721AE222046E4FC009B4474 /* BasicDetails */,
-			);
-			path = Basic;
-			sourceTree = "<group>";
-		};
-		0721AE2E2046EE97009B4474 /* BasicEdit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BasicEdit;
 			sourceTree = "<group>";
 		};
 		0721AE2F2046EF11009B4474 /* Resources */ = {
@@ -270,21 +204,6 @@
 				21DB301E19DD2289003A418D /* Images.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		0721AE302046EF30009B4474 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				0721AE312046EF38009B4474 /* BasicService */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		0721AE312046EF38009B4474 /* BasicService */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BasicService;
 			sourceTree = "<group>";
 		};
 		0721AE322046EF9F009B4474 /* Stroyboards */ = {
@@ -302,31 +221,9 @@
 			children = (
 				215828691A91E2E000833BE6 /* Scripts */,
 				21DB301319DD2289003A418D /* Info.plist */,
-				21DB303819DD2341003A418D /* BridgeHeader.h */,
+				CBE2F88422281EDF006B0FA4 /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		07606FE12088D18C00D1B824 /* FSTeamTests */ = {
-			isa = PBXGroup;
-			children = (
-				E7C62E131E8517FA0045B9F3 /* FSTestHelpers.swift */,
-				212D018C1BB1986B00B34340 /* UnitTests */,
-				1710DE5D1C453AF800912C5B /* UITests */,
-			);
-			name = FSTeamTests;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		1710DE5D1C453AF800912C5B /* UITests */ = {
-			isa = PBXGroup;
-			children = (
-				E7C62E191E8519750045B9F3 /* Helpers */,
-				1710DE5E1C453AF800912C5B /* ExampleUITests.swift */,
-				1710DE601C453AF800912C5B /* Info.plist */,
-			);
-			name = UITests;
-			path = FSTeamUITests;
 			sourceTree = "<group>";
 		};
 		19D856BF1AB5ECF50014C459 /* Travis CI */ = {
@@ -337,24 +234,11 @@
 			name = "Travis CI";
 			sourceTree = "<group>";
 		};
-		212D018C1BB1986B00B34340 /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				E7C62E161E8517FD0045B9F3 /* Helpers */,
-				212D018D1BB1986B00B34340 /* APITests.swift */,
-				212D018F1BB1986B00B34340 /* Info.plist */,
-			);
-			name = UnitTests;
-			path = FSTeamTests;
-			sourceTree = "<group>";
-		};
 		215828691A91E2E000833BE6 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
 				E728A0EB1E85717400CE6723 /* fastlane */,
 				E7294DFD1E855E980011DA63 /* CI */,
-				21E617E41CE61BBF005D67E0 /* generate_entities.sh */,
-				2158286B1A91E2F200833BE6 /* mogend.sh */,
 			);
 			name = Scripts;
 			path = ..;
@@ -363,7 +247,7 @@
 		218C64B41BA078BA00EEEDF1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0721AE1E2046DA40009B4474 /* BasicModel */,
+				CBE2F89A22282926006B0FA4 /* User */,
 				218C64B61BA078BA00EEEDF1 /* FSTeam.xcdatamodeld */,
 			);
 			path = Models;
@@ -382,7 +266,7 @@
 			children = (
 				21DB301119DD2289003A418D /* FSTeam */,
 				07606FE02088D15F00D1B824 /* Supporting Files */,
-				07606FE12088D18C00D1B824 /* FSTeamTests */,
+				CBE2F8A222282B2B006B0FA4 /* FSTeamTests */,
 				21DB301019DD2289003A418D /* Products */,
 				5C5B41AD2B6E0DFDD4D53E6B /* Frameworks */,
 				825045F4C29A8605164DFADD /* Pods */,
@@ -393,8 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				21DB300F19DD2289003A418D /* FSTeam.app */,
-				212D018B1BB1986B00B34340 /* FSTeamTests.xctest */,
-				1710DE5C1C453AF700912C5B /* FSTeamUITests.xctest */,
+				CBE2F8A122282B2B006B0FA4 /* FSTeamTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -410,7 +293,7 @@
 				0721AE2B2046EE44009B4474 /* Views */,
 				0721AE2C2046EE57009B4474 /* ViewControllers */,
 				0721AE2F2046EF11009B4474 /* Resources */,
-				0721AE302046EF30009B4474 /* Services */,
+				CBE2F888222824D8006B0FA4 /* Services */,
 				0721AE322046EF9F009B4474 /* Stroyboards */,
 			);
 			path = FSTeam;
@@ -419,6 +302,7 @@
 		5C5B41AD2B6E0DFDD4D53E6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBE2F88622282266006B0FA4 /* Alamofire.framework */,
 				194478471AAF90AF00A34744 /* SenTestingKit.framework */,
 				213B89C019F01A40005D3749 /* SpriteKit.framework */,
 				213B89BE19F01A1E005D3749 /* CoreGraphics.framework */,
@@ -430,6 +314,8 @@
 				C09E73AD933DF021CF291D2B /* Pods_Abstract_Swift_BaseUITests.framework */,
 				0A99D6CD5BDD61468162C911 /* Pods_FSTeam.framework */,
 				A2D8687A72BA085B3E221DC0 /* Pods_FSTeamTests.framework */,
+				F4D5BFEDCB05ACA6100B443C /* Pods_Abstract_FSTeam.framework */,
+				17E2B45FCADA5DE139A79B7C /* Pods_Abstract_FSTeamTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -464,6 +350,76 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9AE7BDE8223032BC00C65075 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				9AE7BDE9223032EB00C65075 /* AuthorizationManager.swift */,
+				9AE7BDEB223032FC00C65075 /* DefaultAuthorizationManager.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		CBE2F888222824D8006B0FA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F892222827C3006B0FA4 /* AutorizationService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CBE2F889222824E8006B0FA4 /* Autorization */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F88F22282592006B0FA4 /* Storyboard */,
+				CBE2F88D22282581006B0FA4 /* AuthorizationViewController.swift */,
+			);
+			path = Autorization;
+			sourceTree = "<group>";
+		};
+		CBE2F88F22282592006B0FA4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F890222825A1006B0FA4 /* Autorization.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CBE2F892222827C3006B0FA4 /* AutorizationService */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F89322282808006B0FA4 /* AuthorizationService.swift */,
+				CBE2F8B122282C27006B0FA4 /* DefaultAuthorizationService.swift */,
+			);
+			path = AutorizationService;
+			sourceTree = "<group>";
+		};
+		CBE2F89A22282926006B0FA4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F89B2228292C006B0FA4 /* AccountUser.swift */,
+				CBE2F8B322282EFB006B0FA4 /* DefaultAccountUser.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CBE2F8A222282B2B006B0FA4 /* FSTeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F8AE22282B57006B0FA4 /* Services */,
+				CBE2F8A322282B2B006B0FA4 /* FSTeamTests.swift */,
+				CBE2F8A522282B2B006B0FA4 /* Info.plist */,
+			);
+			path = FSTeamTests;
+			sourceTree = "<group>";
+		};
+		CBE2F8AE22282B57006B0FA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F8AF22282B67006B0FA4 /* AuthorizationServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E7294DFD1E855E980011DA63 /* CI */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,63 +432,9 @@
 			name = CI;
 			sourceTree = "<group>";
 		};
-		E7C62E161E8517FD0045B9F3 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				E7C62E121E8517FA0045B9F3 /* FSTestExtension.swift */,
-			);
-			name = Helpers;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		E7C62E191E8519750045B9F3 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				E7C62E1A1E8519840045B9F3 /* FSUITestHelpers.swift */,
-			);
-			name = Helpers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1710DE5B1C453AF700912C5B /* FSTeamUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1710DE6B1C453AF800912C5B /* Build configuration list for PBXNativeTarget "FSTeamUITests" */;
-			buildPhases = (
-				1710DE581C453AF700912C5B /* Sources */,
-				1710DE591C453AF700912C5B /* Frameworks */,
-				1710DE5A1C453AF700912C5B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1710DE621C453AF800912C5B /* PBXTargetDependency */,
-			);
-			name = FSTeamUITests;
-			productName = FSTeamUITests;
-			productReference = 1710DE5C1C453AF700912C5B /* FSTeamUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		212D018A1BB1986B00B34340 /* FSTeamTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 212D01921BB1986B00B34340 /* Build configuration list for PBXNativeTarget "FSTeamTests" */;
-			buildPhases = (
-				7703A065DAD3BE5508DD1FB6 /* [CP] Check Pods Manifest.lock */,
-				212D01871BB1986B00B34340 /* Sources */,
-				212D01881BB1986B00B34340 /* Frameworks */,
-				212D01891BB1986B00B34340 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				212D01911BB1986B00B34340 /* PBXTargetDependency */,
-			);
-			name = FSTeamTests;
-			productName = FSTeamTests;
-			productReference = 212D018B1BB1986B00B34340 /* FSTeamTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		21DB300E19DD2289003A418D /* FSTeam */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21DB303119DD2289003A418D /* Build configuration list for PBXNativeTarget "FSTeam" */;
@@ -544,6 +446,7 @@
 				21DB300D19DD2289003A418D /* Resources */,
 				21B3D19F19E6E2B700EF0D52 /* Fabric */,
 				ED5EA10099FAC7936106D98E /* [CP] Embed Pods Frameworks */,
+				BF4988E32FDF1A79583400A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -554,6 +457,27 @@
 			productReference = 21DB300F19DD2289003A418D /* FSTeam.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CBE2F8A022282B2B006B0FA4 /* FSTeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE2F8A822282B2B006B0FA4 /* Build configuration list for PBXNativeTarget "FSTeamTests" */;
+			buildPhases = (
+				20CD6588C393FD69A0A2AEC7 /* [CP] Check Pods Manifest.lock */,
+				CBE2F89D22282B2B006B0FA4 /* Sources */,
+				CBE2F89E22282B2B006B0FA4 /* Frameworks */,
+				CBE2F89F22282B2B006B0FA4 /* Resources */,
+				0835C3080D1EC8E9EFA32F6D /* [CP] Embed Pods Frameworks */,
+				2CEB11435780940BB0222BF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE2F8A722282B2B006B0FA4 /* PBXTargetDependency */,
+			);
+			name = FSTeamTests;
+			productName = FSTeamTests;
+			productReference = CBE2F8A122282B2B006B0FA4 /* FSTeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -561,25 +485,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 1010;
 				LastTestingUpgradeCheck = 0700;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Flatstack;
 				TargetAttributes = {
-					1710DE5B1C453AF700912C5B = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 21DB300E19DD2289003A418D;
-					};
-					212D018A1BB1986B00B34340 = {
-						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
-						TestTargetID = 21DB300E19DD2289003A418D;
-					};
 					21DB300E19DD2289003A418D = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = Y49MTY8CU2;
 						LastSwiftMigration = 0900;
+					};
+					CBE2F8A022282B2B006B0FA4 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = Y49MTY8CU2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21DB300E19DD2289003A418D;
 					};
 				};
 			};
@@ -598,27 +518,12 @@
 			projectRoot = "";
 			targets = (
 				21DB300E19DD2289003A418D /* FSTeam */,
-				212D018A1BB1986B00B34340 /* FSTeamTests */,
-				1710DE5B1C453AF700912C5B /* FSTeamUITests */,
+				CBE2F8A022282B2B006B0FA4 /* FSTeamTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1710DE5A1C453AF700912C5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		212D01891BB1986B00B34340 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21DB300D19DD2289003A418D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -627,7 +532,16 @@
 				E7566D9F1A1F85CB00DE3010 /* Main_Storyboard.storyboard in Resources */,
 				218C64C01BA07DDE00EEEDF1 /* Localizable.strings in Resources */,
 				21E617E31CE60676005D67E0 /* LaunchScreen.storyboard in Resources */,
+				CBE2F891222825A1006B0FA4 /* Autorization.storyboard in Resources */,
 				21DB301F19DD2289003A418D /* Images.xcassets in Resources */,
+				CBE2F88522281EDF006B0FA4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE2F89F22282B2B006B0FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +565,64 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\nexit 1\nfi\n";
 		};
+		0835C3080D1EC8E9EFA32F6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSHelpers+Swift/FSHelpers_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSHelpers_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20CD6588C393FD69A0A2AEC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Abstract-FSTeamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		21B3D19F19E6E2B700EF0D52 /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -666,24 +638,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#\"${PODS_ROOT}/Fabric/Fabric.framework/run\" api_key build_secret";
+			shellScript = "#\"${PODS_ROOT}/Fabric/Fabric.framework/run\" api_key build_secret\n";
 		};
-		7703A065DAD3BE5508DD1FB6 /* [CP] Check Pods Manifest.lock */ = {
+		2CEB11435780940BB0222BF7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+			inputFileListPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FSTeamTests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4988E32FDF1A79583400A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC612261ED91271563C1FE5B /* [CP] Check Pods Manifest.lock */ = {
@@ -697,7 +695,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FSTeam-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Abstract-FSTeam-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -710,72 +708,71 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FSHelpers+Swift/FSHelpers_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSHelpers_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1710DE581C453AF700912C5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7C62E1D1E851B280045B9F3 /* FSTestHelpers.swift in Sources */,
-				E7C62E1C1E851B0F0045B9F3 /* FSUITestHelpers.swift in Sources */,
-				1710DE5F1C453AF800912C5B /* ExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		212D01871BB1986B00B34340 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7C62E181E85180B0045B9F3 /* FSTestHelpers.swift in Sources */,
-				E7C62E171E8518080045B9F3 /* FSTestExtension.swift in Sources */,
-				212D018E1BB1986B00B34340 /* APITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21DB300B19DD2289003A418D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE7BDEC223032FC00C65075 /* DefaultAuthorizationManager.swift in Sources */,
+				CBE2F89422282808006B0FA4 /* AuthorizationService.swift in Sources */,
+				CBE2F8B222282C27006B0FA4 /* DefaultAuthorizationService.swift in Sources */,
 				218C64B81BA078BA00EEEDF1 /* FSTeam.xcdatamodeld in Sources */,
 				077D69E61F9DE831008F63DA /* ExampleApiRouter.swift in Sources */,
-				2124DFA01A8DF48000422313 /* ViewController.swift in Sources */,
 				214F4FF41BFDC2D90084BE32 /* Helpers.swift in Sources */,
+				9AE7BDEA223032EB00C65075 /* AuthorizationManager.swift in Sources */,
 				21DB301519DD2289003A418D /* AppDelegate.swift in Sources */,
 				2158286F1A91E56600833BE6 /* ApiSessionManager.swift in Sources */,
 				21DB304919DD2D6D003A418D /* Constants.swift in Sources */,
-				E7C62E1E1E851B290045B9F3 /* FSTestHelpers.swift in Sources */,
+				CBE2F88E22282581006B0FA4 /* AuthorizationViewController.swift in Sources */,
+				CBE2F89C2228292C006B0FA4 /* AccountUser.swift in Sources */,
+				CBE2F8B422282EFB006B0FA4 /* DefaultAccountUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE2F89D22282B2B006B0FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE2F8A422282B2B006B0FA4 /* FSTeamTests.swift in Sources */,
+				CBE2F8B022282B67006B0FA4 /* AuthorizationServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1710DE621C453AF800912C5B /* PBXTargetDependency */ = {
+		CBE2F8A722282B2B006B0FA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 21DB300E19DD2289003A418D /* FSTeam */;
-			targetProxy = 1710DE611C453AF800912C5B /* PBXContainerItemProxy */;
-		};
-		212D01911BB1986B00B34340 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 21DB300E19DD2289003A418D /* FSTeam */;
-			targetProxy = 212D01901BB1986B00B34340 /* PBXContainerItemProxy */;
+			targetProxy = CBE2F8A622282B2B006B0FA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -810,102 +807,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		077D69E71F9DF31A008F63DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52B8A3080FA9657B3D52FC22 /* Pods-FSTeamTests.release.xcconfig */;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = FSTeamTests;
-			};
-			name = Release;
-		};
-		077D69E81F9DF31A008F63DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = FSTeamUITests;
-			};
-			name = Release;
-		};
-		1710DE651C453AF800912C5B /* Debug Staging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FSTeamUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = FSTeam;
-				USES_XCTRUNNER = YES;
-			};
-			name = "Debug Staging";
-		};
-		1710DE671C453AF800912C5B /* Test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FSTeamUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = FSTeam;
-				USES_XCTRUNNER = YES;
-			};
-			name = Test;
-		};
-		1710DE681C453AF800912C5B /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FSTeamUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = FSTeam;
-				USES_XCTRUNNER = YES;
-			};
-			name = AppStore;
-		};
-		1710DE691C453AF800912C5B /* Release Staging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FSTeamUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = FSTeam;
-				USES_XCTRUNNER = YES;
-			};
-			name = "Release Staging";
-		};
 		212D01811BB1978500B34340 /* Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -920,12 +821,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -948,7 +851,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				URL_HOST = "https://apple.com";
 				VALIDATE_PRODUCT = YES;
@@ -957,7 +861,7 @@
 		};
 		212D01821BB1978500B34340 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9FDBC46B2B0EE3FEACD7230 /* Pods-FSTeam.test.xcconfig */;
+			baseConfigurationReference = 8BE8A10D4F6C40D2CFF8881F /* Pods-Abstract-FSTeam.test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "FSTeam Staging";
@@ -970,7 +874,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
@@ -978,97 +882,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "6abf51a6-4557-4190-a61f-8517c7946ecf";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Test;
-		};
-		212D01951BB1986B00B34340 /* Debug Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BF404C72D36EAC66B079469 /* Pods-FSTeamTests.debug staging.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FSTeamTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
-			};
-			name = "Debug Staging";
-		};
-		212D01971BB1986B00B34340 /* Test */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A1DC1EC1819BD136F198A99 /* Pods-FSTeamTests.test.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = FSTeamTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
-			};
-			name = Test;
-		};
-		212D01981BB1986B00B34340 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BFA4ADCC24DCDD1E07D1813 /* Pods-FSTeamTests.appstore.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FSTeamTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
-			};
-			name = AppStore;
-		};
-		212D01991BB1986B00B34340 /* Release Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD934FF3A96F21677B2B0E05 /* Pods-FSTeamTests.release staging.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FSTeamTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
-			};
-			name = "Release Staging";
 		};
 		21DB304C19DD3B30003A418D /* Release Staging */ = {
 			isa = XCBuildConfiguration;
@@ -1084,12 +905,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1113,7 +936,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				URL_HOST = "https://apple.com";
@@ -1123,7 +947,7 @@
 		};
 		21DB304D19DD3B30003A418D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87BB3D540C98D0BB365B90D1 /* Pods-FSTeam.release.xcconfig */;
+			baseConfigurationReference = 2EDBCEC62EED8E435D38F2E2 /* Pods-Abstract-FSTeam.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				API_VERSION = v1;
@@ -1153,6 +977,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1163,14 +988,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				URL_HOST = "https://apple.com";
 				VALIDATE_PRODUCT = YES;
@@ -1185,6 +1012,8 @@
 				BUNDLE_DISPLAY_NAME = FSTeam;
 				BUNDLE_ID = com.flatstack.FSTeam;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1206,8 +1035,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -1217,7 +1046,7 @@
 		};
 		21DB305019DD3B48003A418D /* Release Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD8F685102D5C7EA4F9C4CD /* Pods-FSTeam.release staging.xcconfig */;
+			baseConfigurationReference = F5569AFF31D6AD52CF989338 /* Pods-Abstract-FSTeam.release staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				BUNDLE_DISPLAY_NAME = "FSTeam Staging";
@@ -1225,23 +1054,334 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "1a9506f9-983f-4087-a07a-26355b883ef8";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Release Staging";
+		};
+		CBE2F8A922282B2B006B0FA4 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4BF9F76D2787DC0E27216D /* Pods-Abstract-FSTeamTests.release staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y49MTY8CU2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Staging";
+		};
+		CBE2F8AA22282B2B006B0FA4 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD668A6E2E26FB6FE9EC39E2 /* Pods-Abstract-FSTeamTests.test.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y49MTY8CU2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test;
+		};
+		CBE2F8AB22282B2B006B0FA4 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E10CA8C13400E183AC2638 /* Pods-Abstract-FSTeamTests.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y49MTY8CU2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		CBE2F8AC22282B2B006B0FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939D201EA38A5C54F69E5C78 /* Pods-Abstract-FSTeamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y49MTY8CU2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE2F8AD22282B2B006B0FA4 /* AppStore Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2265BB77CF808D30857E6BB8 /* Pods-Abstract-FSTeamTests.appstore staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y49MTY8CU2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FSTeamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "AppStore Staging";
 		};
 		E7294D9A1E85529D0011DA63 /* AppStore Staging */ = {
 			isa = XCBuildConfiguration;
@@ -1257,12 +1397,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1286,7 +1428,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				URL_HOST = "https://apple.com";
@@ -1296,7 +1439,7 @@
 		};
 		E7294D9B1E85529D0011DA63 /* AppStore Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C18DDC57DEA5B5A78555034E /* Pods-FSTeam.appstore staging.xcconfig */;
+			baseConfigurationReference = 5A6EEF9457403CA02590F64D /* Pods-Abstract-FSTeam.appstore staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				BUNDLE_DISPLAY_NAME = "FSTeam Staging";
@@ -1304,56 +1447,22 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "1f21326e-340a-428d-a6c3-4eb9873475fc";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = "AppStore Staging";
-		};
-		E7294D9C1E85529D0011DA63 /* AppStore Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05CD8AA04A95189B131D1806 /* Pods-FSTeamTests.appstore staging.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FSTeamTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatstack.FSTeamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSTeam.app/FSTeam";
-			};
-			name = "AppStore Staging";
-		};
-		E7294D9D1E85529D0011DA63 /* AppStore Staging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FSTeamUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FS.FSTeamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = FSTeam;
-				USES_XCTRUNNER = YES;
 			};
 			name = "AppStore Staging";
 		};
@@ -1371,12 +1480,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1399,7 +1510,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				URL_HOST = "https://apple.com";
 				VALIDATE_PRODUCT = YES;
@@ -1408,7 +1520,7 @@
 		};
 		E736C5DF1A25320400B8986E /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6251A881BC0B42F954A765A8 /* Pods-FSTeam.appstore.xcconfig */;
+			baseConfigurationReference = 515E1CD58AEDDB60304AE65F /* Pods-Abstract-FSTeam.appstore.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = FSTeam;
@@ -1416,20 +1528,21 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FLATSTACK, LLC (Y49MTY8CU2)";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = FSTeam;
 				PROVISIONING_PROFILE = "4bedd41f-7037-4a27-a19b-53e7697ca528";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/BridgeHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AppStore;
@@ -1437,32 +1550,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1710DE6B1C453AF800912C5B /* Build configuration list for PBXNativeTarget "FSTeamUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1710DE651C453AF800912C5B /* Debug Staging */,
-				1710DE671C453AF800912C5B /* Test */,
-				1710DE681C453AF800912C5B /* AppStore */,
-				1710DE691C453AF800912C5B /* Release Staging */,
-				E7294D9D1E85529D0011DA63 /* AppStore Staging */,
-				077D69E81F9DF31A008F63DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Debug Staging";
-		};
-		212D01921BB1986B00B34340 /* Build configuration list for PBXNativeTarget "FSTeamTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				212D01951BB1986B00B34340 /* Debug Staging */,
-				212D01971BB1986B00B34340 /* Test */,
-				212D01981BB1986B00B34340 /* AppStore */,
-				212D01991BB1986B00B34340 /* Release Staging */,
-				E7294D9C1E85529D0011DA63 /* AppStore Staging */,
-				077D69E71F9DF31A008F63DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Debug Staging";
-		};
 		21DB300A19DD2289003A418D /* Build configuration list for PBXProject "FSTeam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1486,6 +1573,18 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Debug Staging";
+		};
+		CBE2F8A822282B2B006B0FA4 /* Build configuration list for PBXNativeTarget "FSTeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE2F8A922282B2B006B0FA4 /* Release Staging */,
+				CBE2F8AA22282B2B006B0FA4 /* Test */,
+				CBE2F8AB22282B2B006B0FA4 /* AppStore */,
+				CBE2F8AC22282B2B006B0FA4 /* Release */,
+				CBE2F8AD22282B2B006B0FA4 /* AppStore Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

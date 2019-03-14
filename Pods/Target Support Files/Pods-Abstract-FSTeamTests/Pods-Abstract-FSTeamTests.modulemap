@@ -1,0 +1,6 @@
+framework module Pods_Abstract_FSTeamTests {
+  umbrella header "Pods-Abstract-FSTeamTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

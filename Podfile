@@ -1,8 +1,9 @@
-platform :ios, '12.0'
+platform :ios, '10.0'
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'FSTeam' do
+
+abstract_target 'Abstract' do
     pod 'FSHelpers+Swift', :git => 'https://github.com/fs/FSHelper.git'
 
     # Analytics
@@ -10,9 +11,19 @@ target 'FSTeam' do
     pod 'Crashlytics'
     
     # Libraries
-    pod 'Alamofire', '~> 4.5'
+    pod 'Alamofire'
     pod 'Kingfisher'
-end
+    
+    pod 'Swinject'
 
-target 'FSTeamTests' do
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'GoogleSignIn'
+    
+    target 'FSTeam' do
+    end
+    
+    target 'FSTeamTests' do
+    end
+    
 end

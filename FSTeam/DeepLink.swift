@@ -44,9 +44,9 @@ class DeepLink: NSObject {
         
         switch sectionKey {
         case DeepLinkAppSectionKey.example:
-            guard let articleID = info.object(forKey: DeepLinkAppSectionKey.example.description) as? String else {return nil}
+            guard let articleID = info.object(forKey: DeepLinkAppSectionKey.example.description) as? String else { return nil }
             
-            var deepLink: DeepLink? = nil
+            var deepLink: DeepLink?
             if !articleID.isEmpty {
                 deepLink = DeepLinkExample(exampleStr: articleID)
             }
@@ -61,29 +61,28 @@ class DeepLink: NSObject {
     
     final func trigger() {
         DispatchQueue.main.async {
-            self.triggerImp()
-                { (passedData) in
+            self.triggerImp { (_) in
         
             }
         }
     }
     
-    fileprivate func triggerImp(_ completion: ((AnyObject?)->(Void))) {
+    fileprivate func triggerImp(_ completion: ((AnyObject?) -> Void)) {
         completion(nil)
     }
 }
 
-class DeepLinkExample : DeepLink {
+class DeepLinkExample: DeepLink {
     
-    let exampleID : String
+    let exampleID: String
     
     fileprivate init(exampleStr: String) {
         self.exampleID = exampleStr
         super.init()
     }
     
-    fileprivate override func triggerImp(_ completion: ((AnyObject?)->(Void))) {
-        super.triggerImp() { (passedData) in
+    fileprivate override func triggerImp(_ completion: ((AnyObject?) -> Void)) {
+        super.triggerImp { (_) in
                 
                 var vc = UIViewController()
                 let  storyboard = UIStoryboard.init(name: "Main_Storyboard", bundle: nil)
@@ -102,7 +101,7 @@ class DeepLinkExample : DeepLink {
                 default: break
                 }
                 
-                guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {completion(nil); return}
+                guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { completion(nil); return }
                 appDelegate.window?.addSubview(vc.view)
                 
                 completion(nil)

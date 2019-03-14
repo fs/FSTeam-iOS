@@ -8,20 +8,18 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        if IS_RUNNING_TESTS() {
-            self.setupProjectForTests()
-        } else {
-            self.setupProject()
-        }
-        
+        self.setupProject()
+
         return true
     }
 
@@ -48,13 +46,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
     }
     
-    //MARK: - Remote notifications
+    // MARK: - Remote notifications
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         self.saveRemoteNotificationTokenData(application, deviceToken: deviceToken)
     }
+
+    private func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any])
+        -> Bool {
+            return GIDSignIn.sharedInstance().handle(url,
+                                                     sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+                                                     annotation: [:])
+    }
 }
 
-//MARK: - Settings
+// MARK: - Settings
 fileprivate extension AppDelegate {
     
     func setupProject() {
@@ -62,34 +67,17 @@ fileprivate extension AppDelegate {
         self.shareSetupProject()
         
         self.setupProjectForTests()
-        
-        // Magica Record
-//        self.setupMagicalRecord()
-        
-        //setup SDWebImage
-//        self.setupSDWebImage()
-        
-        //setup Crashlytics
+
+        FirebaseApp.configure()
+
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+
         Fabric.with([Crashlytics.self])
     }
     
     func setupProjectForTests() {
         
         self.shareSetupProject()
-        
-        #if TEST
-            switch TestingMode() {
-            case .Unit:
-                Log("Unit Tests")
-                self.window?.rootViewController = UIViewController()
-                return
-                
-            case .UI:
-                Log("UI Tests")
-                //setting custom the first view controller
-//                self.window?.rootViewController = UIViewController()
-            }
-        #endif
     }
     
     func shareSetupProject() {
