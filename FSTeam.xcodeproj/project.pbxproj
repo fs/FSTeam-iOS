@@ -30,8 +30,21 @@
 		CBE2F8B022282B67006B0FA4 /* AuthorizationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F8AF22282B67006B0FA4 /* AuthorizationServiceTests.swift */; };
 		CBE2F8B222282C27006B0FA4 /* DefaultAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F8B122282C27006B0FA4 /* DefaultAuthorizationService.swift */; };
 		CBE2F8B422282EFB006B0FA4 /* DefaultAccountUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2F8B322282EFB006B0FA4 /* DefaultAccountUser.swift */; };
-		E7566D9F1A1F85CB00DE3010 /* Main_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */; };
-		E75BB8051E8CFEF90035C2DA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75BB8071E8CFEF90035C2DA /* Main_iPad.storyboard */; };
+		E7566D9F1A1F85CB00DE3010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7566DA11A1F85CB00DE3010 /* Main.storyboard */; };
+		FD301154223AA3A90092259F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301153223AA3A90092259F /* MainViewController.swift */; };
+		FD301159223AA4BC0092259F /* EmployersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301158223AA4BC0092259F /* EmployersTableViewController.swift */; };
+		FD30115B223AA4CC0092259F /* Employers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD30115A223AA4CC0092259F /* Employers.storyboard */; };
+		FD30115F223AA5610092259F /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD30115E223AA5610092259F /* Settings.storyboard */; };
+		FD301161223AA5760092259F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301160223AA5760092259F /* SettingsTableViewController.swift */; };
+		FD301164223AA9F90092259F /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301163223AA9F90092259F /* Employer.swift */; };
+		FD301167223AAB2D0092259F /* EmployerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301166223AAB2D0092259F /* EmployerService.swift */; };
+		FD301169223AABAC0092259F /* DefaultEmployerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301168223AABAC0092259F /* DefaultEmployerService.swift */; };
+		FD30116B223AAC700092259F /* EmployersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD30116A223AAC700092259F /* EmployersInteractor.swift */; };
+		FD30116D223AAC7E0092259F /* EmployersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD30116C223AAC7E0092259F /* EmployersPresenter.swift */; };
+		FD30116F223AAD160092259F /* EmploersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD30116E223AAD160092259F /* EmploersRouter.swift */; };
+		FD301172223AADB10092259F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301171223AADB10092259F /* WebService.swift */; };
+		FD301174223AADFF0092259F /* FirebaseWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301173223AADFF0092259F /* FirebaseWebService.swift */; };
+		FD301176223AB2B80092259F /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD301175223AB2B80092259F /* ModelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +72,7 @@
 		21513BBD19EBCBFA00EE6273 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		2158286E1A91E56600833BE6 /* ApiSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiSessionManager.swift; sourceTree = "<group>"; };
 		218C64B71BA078BA00EEEDF1 /* FSTeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FSTeam.xcdatamodel; sourceTree = "<group>"; };
-		218C64BB1BA07D3800EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_Storyboard.strings; sourceTree = "<group>"; };
+		218C64BB1BA07D3800EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		218C64C21BA07E1F00EEEDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		218C64C31BA07E4300EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		21C9F2DF19E833300084D18D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -109,12 +122,24 @@
 		E7294E091E8560240011DA63 /* remove-key.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "remove-key.sh"; path = "Scripts/remove-key.sh"; sourceTree = "<group>"; };
 		E7294E0A1E8560240011DA63 /* sign-and-upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "sign-and-upload.sh"; path = "Scripts/sign-and-upload.sh"; sourceTree = "<group>"; };
 		E7294E0B1E8560240011DA63 /* test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = test.sh; path = Scripts/test.sh; sourceTree = "<group>"; };
-		E7566DA01A1F85CB00DE3010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_Storyboard.storyboard; sourceTree = "<group>"; };
-		E75BB8061E8CFEF90035C2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		E75BB8091E8CFEFB0035C2DA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		E7566DA01A1F85CB00DE3010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D5BFEDCB05ACA6100B443C /* Pods_Abstract_FSTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_FSTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5569AFF31D6AD52CF989338 /* Pods-Abstract-FSTeam.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeam.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam.release staging.xcconfig"; sourceTree = "<group>"; };
 		F9FDBC46B2B0EE3FEACD7230 /* Pods-FSTeam.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeam.test.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeam/Pods-FSTeam.test.xcconfig"; sourceTree = "<group>"; };
+		FD301153223AA3A90092259F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FD301158223AA4BC0092259F /* EmployersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployersTableViewController.swift; sourceTree = "<group>"; };
+		FD30115A223AA4CC0092259F /* Employers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employers.storyboard; sourceTree = "<group>"; };
+		FD30115E223AA5610092259F /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		FD301160223AA5760092259F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FD301163223AA9F90092259F /* Employer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		FD301166223AAB2D0092259F /* EmployerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerService.swift; sourceTree = "<group>"; };
+		FD301168223AABAC0092259F /* DefaultEmployerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultEmployerService.swift; sourceTree = "<group>"; };
+		FD30116A223AAC700092259F /* EmployersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployersInteractor.swift; sourceTree = "<group>"; };
+		FD30116C223AAC7E0092259F /* EmployersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployersPresenter.swift; sourceTree = "<group>"; };
+		FD30116E223AAD160092259F /* EmploersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploersRouter.swift; sourceTree = "<group>"; };
+		FD301171223AADB10092259F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		FD301173223AADFF0092259F /* FirebaseWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseWebService.swift; sourceTree = "<group>"; };
+		FD301175223AB2B80092259F /* ModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelType.swift; sourceTree = "<group>"; };
 		FD934FF3A96F21677B2B0E05 /* Pods-FSTeamTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTeamTests.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-FSTeamTests/Pods-FSTeamTests.release staging.xcconfig"; sourceTree = "<group>"; };
 		FE4BF9F76D2787DC0E27216D /* Pods-Abstract-FSTeamTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-FSTeamTests.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests.release staging.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,12 +213,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0721AE2C2046EE57009B4474 /* ViewControllers */ = {
+		0721AE2C2046EE57009B4474 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				CBE2F889222824E8006B0FA4 /* Autorization */,
+				FD301156223AA4830092259F /* Employers */,
+				FD301152223AA3490092259F /* Main */,
+				FD30115C223AA5440092259F /* Settings */,
+				21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */,
 			);
-			path = ViewControllers;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		0721AE2F2046EF11009B4474 /* Resources */ = {
@@ -209,9 +238,7 @@
 		0721AE322046EF9F009B4474 /* Stroyboards */ = {
 			isa = PBXGroup;
 			children = (
-				E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */,
-				E75BB8071E8CFEF90035C2DA /* Main_iPad.storyboard */,
-				21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */,
+				E7566DA11A1F85CB00DE3010 /* Main.storyboard */,
 			);
 			path = Stroyboards;
 			sourceTree = "<group>";
@@ -247,8 +274,10 @@
 		218C64B41BA078BA00EEEDF1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CBE2F89A22282926006B0FA4 /* User */,
+				FD301162223AA8840092259F /* Employer */,
+				CBE2F89A22282926006B0FA4 /* AccountUser */,
 				218C64B61BA078BA00EEEDF1 /* FSTeam.xcdatamodeld */,
+				FD301175223AB2B80092259F /* ModelType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -290,11 +319,10 @@
 				0721AE202046E325009B4474 /* Helpers */,
 				0721AE282046EE17009B4474 /* Managers */,
 				218C64B41BA078BA00EEEDF1 /* Models */,
-				0721AE2B2046EE44009B4474 /* Views */,
-				0721AE2C2046EE57009B4474 /* ViewControllers */,
 				0721AE2F2046EF11009B4474 /* Resources */,
 				CBE2F888222824D8006B0FA4 /* Services */,
-				0721AE322046EF9F009B4474 /* Stroyboards */,
+				0721AE2C2046EE57009B4474 /* Scenes */,
+				0721AE2B2046EE44009B4474 /* Views */,
 			);
 			path = FSTeam;
 			sourceTree = "<group>";
@@ -362,6 +390,8 @@
 		CBE2F888222824D8006B0FA4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				FD301170223AAD660092259F /* WebService */,
+				FD301165223AAB0A0092259F /* EmployerService */,
 				CBE2F892222827C3006B0FA4 /* AutorizationService */,
 			);
 			path = Services;
@@ -393,13 +423,13 @@
 			path = AutorizationService;
 			sourceTree = "<group>";
 		};
-		CBE2F89A22282926006B0FA4 /* User */ = {
+		CBE2F89A22282926006B0FA4 /* AccountUser */ = {
 			isa = PBXGroup;
 			children = (
 				CBE2F89B2228292C006B0FA4 /* AccountUser.swift */,
 				CBE2F8B322282EFB006B0FA4 /* DefaultAccountUser.swift */,
 			);
-			path = User;
+			path = AccountUser;
 			sourceTree = "<group>";
 		};
 		CBE2F8A222282B2B006B0FA4 /* FSTeamTests */ = {
@@ -430,6 +460,78 @@
 				19D856BF1AB5ECF50014C459 /* Travis CI */,
 			);
 			name = CI;
+			sourceTree = "<group>";
+		};
+		FD301152223AA3490092259F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0721AE322046EF9F009B4474 /* Stroyboards */,
+				FD301153223AA3A90092259F /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FD301156223AA4830092259F /* Employers */ = {
+			isa = PBXGroup;
+			children = (
+				FD301157223AA4A40092259F /* Storyboards */,
+				FD30116A223AAC700092259F /* EmployersInteractor.swift */,
+				FD30116C223AAC7E0092259F /* EmployersPresenter.swift */,
+				FD301158223AA4BC0092259F /* EmployersTableViewController.swift */,
+				FD30116E223AAD160092259F /* EmploersRouter.swift */,
+			);
+			path = Employers;
+			sourceTree = "<group>";
+		};
+		FD301157223AA4A40092259F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FD30115A223AA4CC0092259F /* Employers.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FD30115C223AA5440092259F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FD30115D223AA5540092259F /* Storyboards */,
+				FD301160223AA5760092259F /* SettingsTableViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FD30115D223AA5540092259F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FD30115E223AA5610092259F /* Settings.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FD301162223AA8840092259F /* Employer */ = {
+			isa = PBXGroup;
+			children = (
+				FD301163223AA9F90092259F /* Employer.swift */,
+			);
+			path = Employer;
+			sourceTree = "<group>";
+		};
+		FD301165223AAB0A0092259F /* EmployerService */ = {
+			isa = PBXGroup;
+			children = (
+				FD301166223AAB2D0092259F /* EmployerService.swift */,
+				FD301168223AABAC0092259F /* DefaultEmployerService.swift */,
+			);
+			path = EmployerService;
+			sourceTree = "<group>";
+		};
+		FD301170223AAD660092259F /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				FD301173223AADFF0092259F /* FirebaseWebService.swift */,
+				FD301171223AADB10092259F /* WebService.swift */,
+			);
+			path = WebService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,12 +630,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E75BB8051E8CFEF90035C2DA /* Main_iPad.storyboard in Resources */,
-				E7566D9F1A1F85CB00DE3010 /* Main_Storyboard.storyboard in Resources */,
+				E7566D9F1A1F85CB00DE3010 /* Main.storyboard in Resources */,
 				218C64C01BA07DDE00EEEDF1 /* Localizable.strings in Resources */,
 				21E617E31CE60676005D67E0 /* LaunchScreen.storyboard in Resources */,
+				FD30115F223AA5610092259F /* Settings.storyboard in Resources */,
 				CBE2F891222825A1006B0FA4 /* Autorization.storyboard in Resources */,
 				21DB301F19DD2289003A418D /* Images.xcassets in Resources */,
+				FD30115B223AA4CC0092259F /* Employers.storyboard in Resources */,
 				CBE2F88522281EDF006B0FA4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,7 +676,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FSHelpers+Swift/FSHelpers_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
@@ -581,6 +684,7 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -594,11 +698,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		20CD6588C393FD69A0A2AEC7 /* [CP] Check Pods Manifest.lock */ = {
@@ -648,7 +753,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -659,7 +764,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeamTests/Pods-Abstract-FSTeamTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF4988E32FDF1A79583400A8 /* [CP] Copy Pods Resources */ = {
@@ -670,7 +775,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -681,7 +786,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC612261ED91271563C1FE5B /* [CP] Check Pods Manifest.lock */ = {
@@ -708,7 +813,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FSHelpers+Swift/FSHelpers_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
@@ -716,6 +821,7 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -727,11 +833,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Abstract-FSTeam/Pods-Abstract-FSTeam-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -741,16 +848,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD301164223AA9F90092259F /* Employer.swift in Sources */,
 				9AE7BDEC223032FC00C65075 /* DefaultAuthorizationManager.swift in Sources */,
 				CBE2F89422282808006B0FA4 /* AuthorizationService.swift in Sources */,
+				FD30116B223AAC700092259F /* EmployersInteractor.swift in Sources */,
 				CBE2F8B222282C27006B0FA4 /* DefaultAuthorizationService.swift in Sources */,
 				218C64B81BA078BA00EEEDF1 /* FSTeam.xcdatamodeld in Sources */,
+				FD301176223AB2B80092259F /* ModelType.swift in Sources */,
+				FD301169223AABAC0092259F /* DefaultEmployerService.swift in Sources */,
 				077D69E61F9DE831008F63DA /* ExampleApiRouter.swift in Sources */,
 				214F4FF41BFDC2D90084BE32 /* Helpers.swift in Sources */,
 				9AE7BDEA223032EB00C65075 /* AuthorizationManager.swift in Sources */,
+				FD301172223AADB10092259F /* WebService.swift in Sources */,
+				FD301174223AADFF0092259F /* FirebaseWebService.swift in Sources */,
+				FD301154223AA3A90092259F /* MainViewController.swift in Sources */,
+				FD30116F223AAD160092259F /* EmploersRouter.swift in Sources */,
 				21DB301519DD2289003A418D /* AppDelegate.swift in Sources */,
+				FD30116D223AAC7E0092259F /* EmployersPresenter.swift in Sources */,
+				FD301167223AAB2D0092259F /* EmployerService.swift in Sources */,
+				FD301159223AA4BC0092259F /* EmployersTableViewController.swift in Sources */,
 				2158286F1A91E56600833BE6 /* ApiSessionManager.swift in Sources */,
 				21DB304919DD2D6D003A418D /* Constants.swift in Sources */,
+				FD301161223AA5760092259F /* SettingsTableViewController.swift in Sources */,
 				CBE2F88E22282581006B0FA4 /* AuthorizationViewController.swift in Sources */,
 				CBE2F89C2228292C006B0FA4 /* AccountUser.swift in Sources */,
 				CBE2F8B422282EFB006B0FA4 /* DefaultAccountUser.swift in Sources */,
@@ -786,22 +905,13 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */ = {
+		E7566DA11A1F85CB00DE3010 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E7566DA01A1F85CB00DE3010 /* Base */,
 				218C64BB1BA07D3800EEEDF1 /* ru */,
 			);
-			name = Main_Storyboard.storyboard;
-			sourceTree = "<group>";
-		};
-		E75BB8071E8CFEF90035C2DA /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E75BB8061E8CFEF90035C2DA /* Base */,
-				E75BB8091E8CFEFB0035C2DA /* ru */,
-			);
-			name = Main_iPad.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
